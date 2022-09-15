@@ -1,0 +1,9 @@
+kafka:
+  address:
+   - "123.56.231.37:9092"
+  topic: "bluebell"
+  chan_size: 10000
+etcd :
+  address:
+    - "127.0.0.1:2379"
+  collect_key: "collect_log"
